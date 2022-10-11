@@ -1,0 +1,4 @@
+.ipynb_checkpoints/
+__pycache__
+src/solution.ipynb
+.DS_STORE
