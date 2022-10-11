@@ -5,12 +5,22 @@ In this lab, we will use XGBoost to predict whether a galaxy is a star, a galaxy
 This type of machine learning problem is called a **multi-class classification** problem and is **supervised machine learning**. We will use the XGBoost library to train a model to predict the class of a galaxy based on its features.
 
 
-We will be introducing the following concepts:
-    * F1 score
-    * Cross-validation
-    * Confusion matrix
-    * Feature importance
-    * Hyperparameter optimization with Optuna
+We will be working with the following concepts:
+* XGBoost
+* Classification
+* F1 score
+* Cross-validation
+* Confusion matrix
+* Feature importance
+* Hyperparameter optimization with Optuna
+
+## XGBoost
+
+XGBoost is a machine learning library that implements gradient boosted decision trees. It is a very popular library for machine learning competitions and is often used as a baseline model. It is also very fast and scalable, making it a good choice for large datasets. It is the go-to for tabular datasets, like this one.
+
+## Classification
+
+Classification is a type of supervised machine learning. In classification, we have a set of data points, each with a set of features. Each data point belongs to a class. We want to train a model that can predict the class of a data point based on its features. In this lab, we will be predicting the class of a object in the sky based on its features.
 
 ## F1 Score
 
